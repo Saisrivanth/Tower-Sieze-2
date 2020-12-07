@@ -16,7 +16,7 @@ class Box
 }
 
 display()
-{    if(this.body.speed < 13.2){
+{    if(this.body.speed < 13.1){
     var pos = this.body.position;
     fill(random(0,255),random(0,255),random(0,255));
     rect(pos.x,pos.y,this.width,this.height);
